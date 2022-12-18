@@ -851,14 +851,14 @@ article ul li {
 }
 
 .input {
-	width: 400px;
+	width: 350px;
 	margin-bottom: 15px;
 	font-size: 16px;
 	color: #1c1c19;
 	padding: 3px;
 }
 .input2 {
-	width: 400px;
+	width: 350px;
 	font-size: 16px;
 	color: #1c1c19;
 	padding: 3px;
@@ -871,6 +871,12 @@ article ul li {
 	font-size: 16px;
 	color: #fff;
 	cursor: pointer;
+}
+
+@media (max-width: 576px) {
+	.input, .input2 {
+		width: 100%;
+	}
 }
 
 footer {
