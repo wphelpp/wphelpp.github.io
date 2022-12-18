@@ -710,10 +710,10 @@ main {
 	min-height: 514px;
 }
 .cards456 {
-	min-height: 524px;
+	min-height: 480px;
 }
 .cards789 {
-	min-height: 514px;
+	min-height: 524px;
 }
 
 .cards h3 {
@@ -848,6 +848,29 @@ article ul li {
 	color: #1c1c19;
 	margin-bottom: 15px;
 	display: block;
+}
+
+.input {
+	width: 400px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #1c1c19;
+	padding: 3px;
+}
+.input2 {
+	width: 400px;
+	font-size: 16px;
+	color: #1c1c19;
+	padding: 3px;
+}
+.submit {
+	margin-top: 20px;
+	background-color: #1c1c19;
+	border: none;
+	padding: 11px 13px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
 }
 
 footer {
