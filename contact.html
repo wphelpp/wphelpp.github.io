@@ -8,7 +8,7 @@ permalink: /contact/
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact - WP Help In</title>
-<link rel="stylesheet" href="https://www.wphelpin.com/assets/style.css">
+<link rel="stylesheet" href="assets/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800;900&display=swap" rel="stylesheet">
@@ -47,12 +47,13 @@ permalink: /contact/
 
 <div class="row">
 <div class="col-md-3"><label class="label">Your Sweet Name:</label></div>
-<div class="col-md-9"><input type="text" name="name" /></div>
+<div class="col-md-9"><input type="text" name="name" class="input" /></div>
 <div class="col-md-3"><label class="label">Your Valid Email:</label></div>
-<div class="col-md-9"><input type="email" name="email" /></div>
+<div class="col-md-9"><input type="email" name="email" class="input" /></div>
 <div class="col-md-3"><label class="label">Your Lovely Message:</label></div>
-<div class="col-md-9"><input type="text" name="message" /></div>
-<div class="col-md-12"><button id="my-form-button">Submit</button></div>
+<div class="col-md-9"><textarea name="message" rows="10" class="input2"></textarea></div>
+<div class="col-md-3"></div>
+<div class="col-md-9"><button id="my-form-button" class="submit">Submit</button></div>
 <div class="col-md-12"><p id="my-form-status"></p></div>
 
 </form>
