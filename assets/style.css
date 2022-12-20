@@ -644,7 +644,8 @@ header {
 	}
 
 	.navbar ul li a {
-		padding: 44px 10px;		
+		padding: 44px 10px;
+		color: #1c1c19;	
 	}
 
 	.nav_toggle {
