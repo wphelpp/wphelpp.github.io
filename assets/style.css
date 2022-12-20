@@ -589,7 +589,7 @@ header {
 	margin: 0;
 	width: 100%;
 	display: none;
-	background-color: #333;
+	background-color: #1c1c19;
 	zoom: 1;
 }
 
@@ -615,7 +615,7 @@ header {
 	padding: 10px;
 	font-size: 19px;
 	font-weight: 400;
-	color: #1c1c19;
+	color: #f4f4ed;
 	line-height: 23px;
 	white-space: nowrap;
 	text-decoration: none;
